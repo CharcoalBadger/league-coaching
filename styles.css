@@ -4,6 +4,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: black;
 }
 
 .header {
@@ -16,14 +17,14 @@ body {
 }
 
 .lefth {
-  margin-left: 10px;
+  margin-left: 100px;
   display: flex;
   gap: 5px;
   text-align: center;
 }
 
 .lol {
-  background-color: red;
+  color: red;
   border-radius: 10px;
   font-size:  24px;
   font-weight: 900;
@@ -31,25 +32,113 @@ body {
 }
 
 .coaching {
-  background-color: blue;
+  color: blue;
   border-radius: 10px;
   font-size:  24px;
   font-weight: 900;
   padding: 5px;
 }
 
+.righth {
+  margin-right: 100px;
+  display: flex;
+  gap: 5px;
+  text-align: center;
+}
+
+button {
+  background-color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 900;
+  padding: 5px;
+}
+
 .promo {
   flex: 1;
+  display: block;
+  color: white;
+  font-size: 32px;
+}
+
+.splash {
+  margin: 5px;
+  width: 1900px;
+  height: auto;
+}
+
+.ltext {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.mtext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.rtext {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+  padding: 16px;
+  margin: 16px;
+  width: 900px;
+  height: 400px;
+  color: whitesmoke;
+  font-size: 32px;
+}
+
+.container {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
+  margin-top: 30px;
+}
+
+.mimage {
+  width: 900px;
+  height: 435px;
+  margin: 16px;
+  border-radius: 4px;
 }
 
 .footer {
-  height: 32px;
-  background: #eee;
-  color: darkmagenta;
+  height: 60px;
+  background-color: white;
+  color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.leftf {
+  display: flex;
+  gap: 16px;
+  margin-left: 100px;
+  background-color: white;
+}
+
+.rightf {
+  display: flex;
+  margin-right: 100px;
+  gap: 16px;
+  background-color: white;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  background-color: white;
 }
